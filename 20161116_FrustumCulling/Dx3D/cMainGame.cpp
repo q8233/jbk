@@ -132,7 +132,7 @@ void cMainGame::Render()
 	LPD3DXFONT pFont = g_pFontManager->GetFont(cFontManager::E_CHAT);
 	char szTemp[1024];
 	RECT rc;
-	SetRect(&rc, 100, 100, 101, 101);
+	SetRect(&rc, 50, 50, 101, 101);
 	sprintf(szTemp, "%d", g_pTimeManager->GetFPS());
 	pFont->DrawTextA(NULL, szTemp, strlen(szTemp), &rc, DT_NOCLIP, D3DCOLOR_XRGB(255, 255, 255));
 
