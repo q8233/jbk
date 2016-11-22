@@ -1,4 +1,6 @@
 
+// 2016.11.22
+
 #include "stdafx.h"
 #include <mmsystem.h> 
 #pragma comment(lib,"winmm") 
